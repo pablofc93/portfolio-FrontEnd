@@ -1,2 +1,385 @@
-<h1>Mi Portfolio</h1>
-<p> modificación en el repositorio remoto </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--FontAwesome -->
+  <script src="https://kit.fontawesome.com/30007aebb5.js" crossorigin="anonymous"></script>
+
+  <!--Boostrap -->  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+  crossorigin="anonymous">
+
+  <!--CSS Main -->
+  <link rel="stylesheet" href="../portfolio-FrontEnd/styles/style.css">
+
+
+  <title>Inicio</title>
+
+</head>
+
+<body class="fondo-gris">
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/a.png" alt="ArgentinaPrograma" class="w-50">
+        </a>
+        
+        
+        <ul  class="list-group list-group-horizontal">
+          <!--Facebook-->
+          <li class="list-group-item bg-transparent border-dark">
+            <a href="https://www.facebook.com/pablo.f.camacho/" target="_blank">
+              <i class="fa-brands fa-facebook text-white"></i>
+            </a>
+          </li> 
+
+          <!--Instagram-->
+          <li class="list-group-item bg-transparent border-dark">
+            <a href="https://www.instagram.com/pablocamacho23/" target="_blank">
+              <i class="fa-brands fa-instagram text-white"></i>
+            </a>
+          </li> 
+
+          <!--Linkedin-->
+          <li class="list-group-item bg-transparent border-dark">
+            <a href="https://www.linkedin.com/in/pablo-camacho-0088ab18b/" target="_blank">
+              <i class="fa-brands fa-linkedin text-white"></i>
+            </a>
+          </li> 
+
+          <!--User-->
+          <li class="list-group-item bg-transparent border-dark">
+            <!-- Boton que envía al login -->
+              <a href="../portfolio-FrontEnd/login.html"><i class="fa-solid fa-user-lock text-white"></i></a>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+
+  <!-- Sección de Banner -->
+  <section class="banner">
+    <h3 class="text-center text-white intro">
+      Hola, soy
+    </h3>
+    <h1 class="text-center text-white intro">
+      Pablo Fabián Camacho<br>
+    </h1>
+    <h2 class="text-center text-white intro">
+      Desarrollador Web Full Stack Jr.
+    </h2>
+  </section>
+
+  <!-- Presentación -->
+  <section class="presentacion mt-5">
+    <h2 class="text-center"><span>Acerca de mi</span></h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-3">
+          <img src="../portfolio-FrontEnd/img/perfil.jpg" alt="foto de perfil" class="rounded-circle img-fluid img-perfil">
+        </div>
+        <div class="col-9 mt-5">
+          <h4> 
+            Soy Técnico Superior en Informática recibido del Instituto de Educación Superior N° 7 "Populorum Progressio - In. Te. La."
+            en el año 2014.<br>
+            Trabajé aproximadamente un año como administrador del sitio web de la radio San Pedro Fm 92.3.<br>
+            Considero que soy una persona curiosa, que le gusta aprender de manera autodidacta y un apasionado de la programación.
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia mt-5">
+    <h2 class="text-center"><span>Experiencia</span></h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-9 mt-4">
+          <h4 class="mt-5 pt-4">
+            Estuve trabajando aproximadamente 1 año como administrador del sitio web de la Radio San Pedro FM 92.3,
+            dicha emisora se encuentra en la ciudad de San Pedro de Jujuy, Argentina.
+            Mis tareas fueron la de cargar el contenido solicitado a través de un Sistema de Gestión de Contenido
+            y realizar tareas de soporte técnico. 
+          </h4>
+        </div>
+
+        <div class="col-3">
+          <img src="../portfolio-FrontEnd/img/gestor.png" alt="gestor de contenido" class="gestor_contenido" width="400" height="300">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educación-->
+  <section class="educacion mt-5 mb-5">
+    <h2 class="text-center"><span>Educación</span></h2>
+    <div class="container text-center">
+      <div class="row">
+
+        <div class="col-6">
+          <!-- Carousel cursos de educación-->
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../portfolio-FrontEnd/img/titulo1.jpg" class="d-block w-100" alt="tec sup en informatica">
+                </div>
+                <div class="carousel-item active">
+                  <img src="../portfolio-FrontEnd/img/titulo2.jpg" class="d-block w-100" alt="tec sup en informatica">
+                </div>
+                <div class="carousel-item">
+                  <img src="../portfolio-FrontEnd/img/certificado2.png" class="d-block w-100" alt="primera etapa argentina programa">
+                </div>
+                <div class="carousel-item">
+                  <img src="../portfolio-FrontEnd/img/certificado1.jpg" class="d-block w-100" alt="flisol software libre">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+  
+          <div class="col-6">
+            <h4 class="mt-6 pt-4">
+              <strong>
+                TÍTULO
+              </strong>
+              <br><br>
+              Técnico Superior en Informática con Orientación en Programación<br>
+              Título otorgado por el Institutlo de Educación Superior N° 7 " Populorum Progressio - In. Te. La."<br>
+              En la ciudad de San Pedro de Jujuy en el año 2014.<br><br><br>
+              <strong>
+                Cursos realizados
+              </strong>
+              <br><br>
+              Argentina programa - Primera etapa #séProgramar<br>
+              Jornadas de software Libre de la Universidad Nacional de Jujuy<br>
+            </h4>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades Hard y Soft Skill--> 
+  <section>
+    <h2 class="text-center mt-5"><span>Hard & Soft Skills</span></h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-10 mt-4">
+
+          <h3 class="text-center mt-3"><span>Tecnologías</span></h3><br>
+          <h4>HTML</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" role="progressbar" aria-label="" style="width: 75%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">75%
+            </div>
+          </div>
+          <h4>CSS</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" role="progressbar" aria-label="" style="width: 60%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">60%
+            </div>
+          </div>>
+          <h4>JAVASCRIPT</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" role="progressbar" aria-label="" style="width: 30%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">30%
+            </div>
+          </div>
+          <h4>BOOSTRAP</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" role="progressbar" aria-label="" style="width: 40%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">40%
+            </div>
+          </div>
+          <h4>PHP</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" role="progressbar" aria-label="" style="width: 30%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">30%
+            </div>
+          </div>
+          <h4>JAVA</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" role="progressbar" aria-label="" style="width: 40%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">40%
+            </div>
+          </div>
+          <h4>C++</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" role="progressbar" aria-label="" style="width: 30%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">30%
+            </div>
+          </div>
+
+          <h3 class="text-center mt-5"><span>Herramientas de Software</span></h3><br>
+          <h4>PAQUETE OFFICE</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" id="colorHSoftware" role="progressbar" aria-label="" style="width: 80%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">80%
+            </div>
+          </div>
+          <h4>PHOTOSHOP</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" id="colorHSoftware" role="progressbar" aria-label="" style="width: 40%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">40%
+            </div>
+          </div>
+          <h4>COREL DRAW</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" id="colorHSoftware" role="progressbar" aria-label="" style="width: 40%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">40%
+            </div>
+          </div>
+
+          <h3 class="text-center mt-5"><span>Habilidades Blandas</span></h3><br>
+          <h4>COMPAÑERISMO</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" id="colorHabilidades" role="progressbar" aria-label="" style="width: 70%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">70%
+            </div>
+          </div>
+          <h4>COMUNICACION</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" id="colorHabilidades" role="progressbar" aria-label="" style="width: 70%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">70%
+            </div>
+          </div>
+          <h4>TRABAJO EN EQUIPO</h4>
+          <div class="progress">
+            <div class="progress-bar bg-rosa" id="colorHabilidades" role="progressbar" aria-label="" style="width: 75%" aria-valuenow="100" 
+              aria-valuemin="0" aria-valuemax="100">75%
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-2">
+      
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos-->
+  <section>
+    <h2 class="text-center mt-5 mb-3">Proyectos</h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="..." alt="...">
+              <div class="card-block">
+                <h4 class="card-title text-center">Proyecto 1</h4>
+                <p class="card-text text-center">
+                  Descripción Proyecto 1
+                </p>
+                <a href="..." target="_blank" class="btn btn-outline-secondary btn-sm">
+                  <i>Enlace a Proyecto 1</i>
+                </a>
+              </div>
+            </div>
+          </div> 
+
+        </div>
+        <div class="col">
+          
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="..." alt="...">
+              <div class="card-block">
+                <h4 class="card-title text-center">Proyecto 2</h4>
+                <p class="card-text text-center">
+                  Descripción Proyecto 2
+                </p>
+                <a href="..." target="_blank" class="btn btn-outline-secondary btn-sm">
+                  <i>Enlace a Proyecto 2</i>
+                </a>
+              </div>
+            </div>
+          </div> 
+
+        </div>
+        <div class="col">
+          
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="..." alt="...">
+              <div class="card-block">
+                <h4 class="card-title text-center">Proyecto 3</h4>
+                <p class="card-text text-center">
+                  Descripción Proyecto 3
+                </p>
+                <a href="..." target="_blank" class="btn btn-outline-secondary btn-sm">
+                  <i>Enlace a Proyecto 3</i>
+                </a>
+              </div>
+            </div>
+          </div> 
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Ventana de login -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio Sesion</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          
+          <!-- Form donde cargamos los datos de acceso -->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="bg-black text-white text-center fs-6 mt-5">
+    <div class="pt-3">
+      <p>&copy Copyright Pablo Fabián Camacho - 2022</p>
+    </div>
+  </footer>
+
+  <!--JS Boostrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+
+</body>
+</html>
+
+<!--Buscar: carrousels, progress, cards en Boostrap-->
