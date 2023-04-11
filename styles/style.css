@@ -21,6 +21,11 @@
     color:#0b3899 !important;
 }
 
+.fa-brands.fa-github:hover{
+    --bs-text-opacity: 1;
+    color:#584f1f !important;
+}
+
 section.banner{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
@@ -69,6 +74,10 @@ h2.intro{
     background-color:#000000;
 }
 
+.educacion{
+    margin-bottom: 90px;
+}
+
 .progress-bar{
     background-color: #d1af06;
     text-align: center;
@@ -111,10 +120,14 @@ h2.intro{
     height: 80%;
 }
 
+
+
 footer.bg-black{
     width: 100%;
-    height: 100%;
-    padding: 1rem;
+    height: 11%;
+    padding: 0.5rem;
+    position:fixed;
+    bottom: 0;
 }
 
 .login{
@@ -125,5 +138,46 @@ footer.bg-black{
     margin-top: 12%;
 }
 
+.img-perfil{
+    width: 70%;
+}
+
+.admin{
+    font-size: 1.1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav.vertical{
+    float: left;
+    margin-left: 0.5em;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 1rem 0;
+    /*justify-content: center;
+    display: flex;*/
+}
+
+a, a:hover{
+    text-decoration: none;
+    color:#000000;
+}
+
+.formulario-redes{
+    padding-bottom: 90px;
+}
+
+.last{
+    padding-bottom: 100px;
+}
 
     
